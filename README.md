@@ -1,22 +1,22 @@
 # upload-api
 
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
-</p>
-
 ## 💻 Sobre o projeto
 Backend de y=uma aplicação que faz uploads de arquivos
 
+## Projeto diponivel em:
+
+<a href="https://uploaded-api.herokuapp.com">
+https://uploaded-api.herokuapp.com
+</a>
+
 ## ⚙️ Funcionalidades
+
 - SignUp
 - Login
 - Pegar informações de aruivos enviados
 - Enviar arquivos
 
-## Como executar o projeto
+## Como executar o projeto localmente
 
 ```bash
 git clone https://github.com/Janaylla/upload-api.git
