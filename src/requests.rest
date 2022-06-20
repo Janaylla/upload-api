@@ -1,0 +1,42 @@
+###
+
+
+###
+POST https://uploaded-api.herokuapp.com/login 
+Content-Type: application/json
+
+{
+	"email": "user@gmail.com",
+	"password": "123456"
+}
+###
+GET http://localhost:3003/workspaces 
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NTQ3NDA3NzZ9.Is24o4zhST89ekIRrMq4OqQT772PwqFBzX3KHnV0938
+
+###
+GET http://localhost:3003/extra-services
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NTQ3NDA3NzZ9.Is24o4zhST89ekIRrMq4OqQT772PwqFBzX3KHnV0938
+###
+POST  http://localhost:3003/reservation
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NTQ3NDA3NzZ9.Is24o4zhST89ekIRrMq4OqQT772PwqFBzX3KHnV0938
+
+{
+    "date": 994388400000,
+    "endTime": 525,
+    "startTime": 585,
+    "workspaceId": "1"
+}
+
+
+###
+GET http://localhost:3003/my-reservations
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NTQ3NDA3NzZ9.Is24o4zhST89ekIRrMq4OqQT772PwqFBzX3KHnV0938
+
+###
+PUT http://localhost:3003/reservation/cancel/102fe2b0-d182-4526-add5-2c4328988a23
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJpYXQiOjE2NTQ3NDA3NzZ9.Is24o4zhST89ekIRrMq4OqQT772PwqFBzX3KHnV0938
